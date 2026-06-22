@@ -5,7 +5,7 @@ import { Nav, Footer, RelatedTools } from "../components/Layout";
 import UploadTool from "../components/UploadTool";
 
 const TOOLS = [
-  { href: "/insect-bite-identifier", emoji: "🩺", title: "Bite Identifier", desc: "Identify insect bites & stings. Get symptoms, treatment & danger level.", color: "#7f1d1d" },
+  { href: "/insect-bite-identifier", emoji: "🩺", title: "Insect Bite Identifier", desc: "Identify insect bites & stings. Get symptoms, treatment & danger level.", color: "#7f1d1d" },
   { href: "/spider-identifier", emoji: "🕷️", title: "Spider Identifier", desc: "Identify any spider species. Know if it's venomous instantly.", color: "#1e293b" },
   { href: "/beetle-identifier", emoji: "🪲", title: "Beetle Identifier", desc: "Identify beetles from 400,000+ species worldwide.", color: "#14532d" },
   { href: "/fly-identifier", emoji: "🪰", title: "Fly Identifier", desc: "Identify flies, gnats, and midges. Check if disease-carrying.", color: "#374151" },
@@ -135,6 +135,12 @@ export default function Home() {
           <h2>How Our AI Insect Identification Works</h2>
           <p>Our system uses a multimodal vision AI model that processes dozens of visual features simultaneously: wing venation patterns, body segmentation, antenna morphology, leg structure, color patterns, markings, and relative size ratios. Unlike single-feature matching systems, our multi-feature approach dramatically reduces misidentification — especially for look-alike species pairs that frequently confuse even experienced naturalists.</p>
           <p>The AI returns a structured report with confidence percentage, allowing you to know exactly how certain the identification is. For ambiguous cases, it provides the most likely candidate along with alternative possibilities. Learn more about our <Link href="/about">methodology on our About page</Link>.</p>
+          <h2>How Does Bug Identification Work?</h2>
+          <p>Our advanced image recognition technology analyzes your uploaded photo and compares it with thousands of insect species. Within seconds, you receive accurate information about the bug in your image.</p>
+          <h3>Step 1: Upload a Clear Picture</h3>
+          
+     
+
         </div>
       </section>
 
